@@ -199,15 +199,15 @@ properties:
         address: 0xD732
         position: 1
         description: |
-          only set by the debug build
-            1. skips most of Prof. Oak's speech, and uses NINTEN as the player's name and SONY as the rival's name
-            2. does not have the player start in floor two of the player's house (instead sending them to [wLastMap])
-            3. allows wild battles to be avoided by holding down B
-            4. allows trainers to be avoided by holding down B
-            5. skips Safari Zone step counter by holding down B
-            6. skips the NPC who blocks Route 3 before beating Brock by holding down B
-            7. skips Cerulean City rival battle by holding down B
-            8. skips Pokémon Tower rival battle by holding down B
+          Only set by the debug build. If true:
+            * skips most of Prof. Oak's speech, and uses NINTEN as the player's name and SONY as the rival's name
+            * does not have the player start in floor two of the player's house (instead sending them to [wLastMap])
+            * allows wild battles to be avoided by holding down B
+            * allows trainers to be avoided by holding down B
+            * skips Safari Zone step counter by holding down B
+            * skips the NPC who blocks Route 3 before beating Brock by holding down B
+            * skips Cerulean City rival battle by holding down B
+            * skips Pokémon Tower rival battle by holding down B
       flyOrDungeon:
         type: "bit"
         address: 0xD732
