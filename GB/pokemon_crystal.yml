@@ -9,7 +9,7 @@ macros:
     species:       { offset: 0, type: "reference", reference: "pokemonSpecies" }
     pokedexNumber: { offset: 0, type: "reference", reference: "pokemonPokedexNumbers" }
   pokemonInParty:
-    _:               { offset: 0, type: "macro", reference: "pokemonMacro" }
+    _:               { offset: 0, type: "macro", macro: "pokemonMacro" }
     level:           { offset: 31, type: "int", size: 1 }
     expPoints:       { offset: 8, type: "int", size: 3 }
     friendship:      { offset: 27, type: "int", size: 1 }
@@ -87,7 +87,7 @@ macros:
     # Field2f: { offset: 46, type: "int", size: 1 }
     # Field30: { offset: 47, type: "int", size: 1 }
   roamer:
-    _:         { offset: 0, type: "macro", reference: "pokemonMacro" }
+    _:         { offset: 0, type: "macro", macro: "pokemonMacro" }
     level:     { offset: 1, type: "int", size: 1 }
     mapGroup:  { offset: 2, type: "reference", size: 1, reference: "mapGroups" }
     mapNumber: { offset: 3, type: "int", size: 1 }
